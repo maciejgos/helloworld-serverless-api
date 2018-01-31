@@ -1,7 +1,7 @@
 using System;
 using System.Net;
 
-public static HttpResponseMessage Run(HttpRequestMessage req, TraceWriter log, ICollector<object> outputDocument)
+public static async Task<HttpResponseMessage> Run(HttpRequestMessage req, TraceWriter log, IAsyncCollector<object> outputDocument)
 {
     log.Info("C# HTTP trigger function processed a request.");
     
@@ -24,7 +24,7 @@ public static HttpResponseMessage Run(HttpRequestMessage req, TraceWriter log, I
         Name = name
     };
 
-    outputDocument.Add(newHello);
+    await outputDocument.AddAsync(newHello);
     
     return name == null
     ? req.CreateResponse(HttpStatusCode.BadRequest, "Please pass a name on the query string or in the request body")
