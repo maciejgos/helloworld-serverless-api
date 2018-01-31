@@ -1,0 +1,25 @@
+{
+  "bindings": [
+    {
+      "authLevel": "function",
+      "name": "req",
+      "type": "httpTrigger",
+      "direction": "in"
+    },
+    {
+      "name": "$return",
+      "type": "http",
+      "direction": "out"
+    },
+    {
+      "type": "documentDB",
+      "name": "outputDocument",
+      "databaseName": "helloworlddb",
+      "collectionName": "HelloWorldCollection",
+      "createIfNotExists": true,
+      "connection": "crossplatform_DOCUMENTDB",
+      "direction": "out"
+    }
+  ],
+  "disabled": false
+}

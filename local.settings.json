@@ -1,0 +1,16 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "FUNCTIONS_EXTENSION_VERSION": "~1",
+    "ScmType": "None",
+    "WEBSITE_AUTH_ENABLED": "False",
+    "crossplatform_DOCUMENTDB": "AccountEndpoint=https://crossplatform.documents.azure.com:443/;AccountKey=w3KSTRSTTxmSQMK6aC9VInu0R6Z5y4gJ4wX0qYrwqufAwnCid5RcnRJzJb14pIPyAUe5tZ6rw9bc5wsm6mPrxw==;",
+    "AzureWebJobsDashboard": "DefaultEndpointsProtocol=https;AccountName=crossplatformdemos;AccountKey=ZRNzwRLxX7/xC2D//2uAQHDNQ+3MmkqSyWqWoODnZkSMvlzbGROs5og/AgROLinQt2lk/2/Qr2SyhndibKxtMg==",
+    "WEBSITE_NODE_DEFAULT_VERSION": "6.5.0",
+    "WEBSITE_CONTENTAZUREFILECONNECTIONSTRING": "DefaultEndpointsProtocol=https;AccountName=crossplatformdemos;AccountKey=ZRNzwRLxX7/xC2D//2uAQHDNQ+3MmkqSyWqWoODnZkSMvlzbGROs5og/AgROLinQt2lk/2/Qr2SyhndibKxtMg==",
+    "WEBSITE_CONTENTSHARE": "helloworld-serverless-api996d",
+    "WEBSITE_SITE_NAME": "helloworld-serverless-api",
+    "WEBSITE_SLOT_NAME": "Production",
+    "AzureWebJobsStorage": "DefaultEndpointsProtocol=https;AccountName=crossplatformdemos;AccountKey=ZRNzwRLxX7/xC2D//2uAQHDNQ+3MmkqSyWqWoODnZkSMvlzbGROs5og/AgROLinQt2lk/2/Qr2SyhndibKxtMg=="
+  }
+}
