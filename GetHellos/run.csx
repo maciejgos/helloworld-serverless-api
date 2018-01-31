@@ -8,5 +8,5 @@ public static HttpResponseMessage Run(HttpRequestMessage req, TraceWriter log, I
 
     log.Info($"Number of items in collection: {numberOfItems}");
 
-    return req.CreateResponse(HttpStatusCode.OK, inputDocument);
+    return req.CreateResponse(HttpStatusCode.OK, numberOfItems);
 }
